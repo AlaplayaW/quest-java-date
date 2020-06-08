@@ -17,10 +17,6 @@ class TestDate {
         int year = sc.nextInt();
         sc.close();
 
-
-        // TODO : your code after this line
-        // Une date formatée de la façon suivante "month-day-year", ex : 04-22-2019Le jour de la semaine correspondant à la date, ex : 2
-
         SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
 
         Calendar c = new GregorianCalendar(year, month-1, day);
